@@ -75,10 +75,16 @@ button{
     justify-content: center;
 }
 
+/* Special similar application to those sections*/
+
+#about,
+#discord,
+#contact{
+    padding: 48px 0;
+}
 
 /* About Section */
 #about{
-    padding: 48px 0;
     background-color: #f8ffdc;
 }
 
@@ -88,7 +94,7 @@ h2{
     margin-bottom: 24px;
 }
 
-.section_description{
+.section__description{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +108,7 @@ h2{
 /* If i want to apply the padding to both figure and paragraphs i could also
 do it this way instead of separately :
 
-.about__img--wrapper
+.about__img--wrapper,
 .section__description--wrapper{
     padding: 0 24px;
 }
@@ -121,4 +127,12 @@ do it this way instead of separately :
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/* DISCORD */
+/* We applied the same attributes as the ABOUT section so check 
+the class applied to understand*/
+
+#discord{
+    background-color: #cefeff;
 }
