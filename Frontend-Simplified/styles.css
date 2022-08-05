@@ -7,6 +7,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*Nav*/
+
 nav{
     padding: 0 16px;
     height: 70px;
@@ -71,4 +73,52 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* About Section */
+#about{
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+    padding: 0 24px;
+}
+
+/* If i want to apply the padding to both figure and paragraphs i could also
+do it this way instead of separately :
+
+.about__img--wrapper
+.section__description--wrapper{
+    padding: 0 24px;
+}
+*/
+
+.img{
+    width: 100%;
+}
+
+.section__description--wrapper{
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
 }
